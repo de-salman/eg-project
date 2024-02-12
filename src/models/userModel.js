@@ -23,10 +23,6 @@ const userSchema = new mongoose.Schema({
       message: "Password must meet the specified requirements",
     },
   },
-  isVerified: {
-    type: Boolean,
-    default: false,
-  },
   isAdmin: {
     type: Boolean,
     default: false,
